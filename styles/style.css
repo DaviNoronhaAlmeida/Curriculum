@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(109, 59, 71);
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 6vh;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    z-index: 1;
+}
+
+#icon-git {
+    border-radius: 50%;
+    background-color: transparent;
+    margin-right: 75px;
+}
+
+#name {
+    margin-left: 10px;
+    font-weight: 800;
+    color: white;
+}
+
+main {
+    background-color: rgb(69, 58, 73);
+    margin: 50px 125px;
+    width: 1100px;
+    box-shadow: 10px 10px 10px rgb(41, 39, 39);
+    border-radius: 5px;
+}
+
+.box {
+    display: flex;
+    margin: 60px;
+}
+
+tr a {
+    color: white;
+}
+
+#info {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#table {
+    text-align: left;
+    padding: 5px;
+    border-spacing: 8px;
+    color: white;
+}
+
+.column {
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.title {
+    text-align: center;
+}
+
+#listskill {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+    align-items: center;
+    width: 700px;
+}
+
+.container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: rgb(192, 168, 180);
+    margin: 25px 50px 40px 50px;
+    box-shadow: 4px 4px 5px rgb(41, 39, 39);
+}
+
+.label {
+    position: absolute;
+    top: 20px;
+    left: -15px;
+    padding: 3px 15px;
+    background-color: rgb(99, 66, 81);
+    color: white;
+}
+
+.label::before {
+    position: absolute;
+    content: "";
+    border-style: solid;
+    bottom: -12px;
+    left: 1px;
+    border-top-width: 6px;
+    border-right-width: 7px;
+    border-bottom-width: 6px;
+    border-left-width: 7px;
+    border-top-color: rgb(99, 66, 81);
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: rgb(99, 66, 81);
+    filter: brightness(60%);
+}
+
+#box2 {
+    flex-direction: column; 
+}
+
+#xp {
+    display: flex;
+    flex-flow: row wrap;
+    width: 900px;
+    margin: auto;
+}
+
+.txtcontainer {
+    margin-top: 60px;
+    margin-left: 15px;
+}
+
+h1 {
+    color: white;
+}
